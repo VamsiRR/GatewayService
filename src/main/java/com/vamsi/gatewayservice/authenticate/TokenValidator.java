@@ -1,10 +1,14 @@
 package com.vamsi.gatewayservice.authenticate;
 
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.io.Decoders;
+import io.jsonwebtoken.security.Keys;
+
 import java.security.Key;
 
 public class TokenValidator
 {
-    public static final String SECRET = "5367566B59703373367639792F423F4528482B4D6251655468576D5A71347437";
+    public static final String SECRET = "196f05070da54e029aed7318875d15c9dhatgskdedjhsytydhheekkshciowahffsbmluqlalaqyyuckamhhebnsqppafemaizgeh";
 
 
     public void validateToken(final String token) {
