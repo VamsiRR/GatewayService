@@ -10,7 +10,7 @@ public class ApigatewayApplication {
 
 	public static void main(String[] args)
 	{
-		System.out.println("Hello!");
+		System.out.println("Hello!, dev branch");
 		SpringApplication.run(ApigatewayApplication.class, args);
 	}
 
